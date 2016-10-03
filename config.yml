@@ -109,6 +109,10 @@ sections:
   directory: cloudbees
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
+    name: pivotal-cf/docs-backup-and-restore
+  directory: pcf-backup-and-restore
+  subnav_template: backup_and_restore_subnav.erb
+- repository:
     name: pivotal-cf/docs-cloudbees-cjoc
   directory: cjoc
   subnav_template: cjoc_subnav.erb
