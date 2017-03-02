@@ -110,7 +110,7 @@ sections:
   subnav_template: pivotal_cloudbees_service_subnav.erb
 - repository:
     name: pivotal-cf/docs-backup-and-restore
-  directory: pcf-backup-and-restore
+  directory: bosh-backup-and-restore
   subnav_template: backup_and_restore_subnav.erb
 - repository:
     name: pivotal-cf/docs-cloudbees-cjoc
@@ -364,7 +364,7 @@ sections:
     url_prefix: rabbitmq-cf/1-7-2
     local_product_version: 1.7.2
     local_header_links: []
-    local_header_version_list:  
+    local_header_version_list:
       - url_prefix: http://docs.pivotal.io/rabbitmq-cf/1-7-0
         display_name: v1.7.0
       - url_prefix: http://docs.pivotal.io/rabbitmq-cf/1-6-5
